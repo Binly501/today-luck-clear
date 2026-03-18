@@ -1,0 +1,26 @@
+{
+  "name": "今日晦气清除",
+  "appid": "__UNI__LUCK_CLEAR",
+  "description": "极简情绪解压工具，每日清除晦气",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "填入你的小程序 AppID",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "minified": true,
+      "postcss": true
+    },
+    "usingComponents": true,
+    "permission": {},
+    "requiredPrivateInfos": []
+  },
+  "h5": {
+    "title": "今日晦气清除",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}
