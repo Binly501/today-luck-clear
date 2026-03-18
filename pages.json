@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "今日晦气清除",
+        "navigationBarBackgroundColor": "#E8F4F8",
+        "backgroundColor": "#E8F4F8"
+      }
+    },
+    {
+      "path": "pages/animation/animation",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "backgroundColor": "#1a1a2e"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "清除记录",
+        "navigationBarBackgroundColor": "#E8F4F8",
+        "backgroundColor": "#E8F4F8"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#E8F4F8",
+        "backgroundColor": "#E8F4F8"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "今日晦气清除",
+    "navigationBarBackgroundColor": "#E8F4F8",
+    "backgroundColor": "#E8F4F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90D9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "记录",
+        "iconPath": "static/tabbar/history.png",
+        "selectedIconPath": "static/tabbar/history-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  }
+}
